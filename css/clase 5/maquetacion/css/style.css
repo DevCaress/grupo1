@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+nav{
+    background-color: black;
+}
+ul{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: inline-block;
+    width: 80%;
+}
+#h2sec1{
+    margin-bottom: 20px;
+}
+
+li{
+    color: #fff;
+    display: inline-block;
+    padding: 20px 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Helvetica;
+}
+li:hover{
+    background-color: goldenrod;
+}
+
+#sec1{
+    width: 60%;
+    float: left;
+    padding: 100px 30px 0 30px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+#sec2{
+    width: 40%;
+    background-color: #000000c7;
+    color: #fff;
+    float: left;
+    padding: 25px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h3{
+    color: goldenrod;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+div{
+    width: 80%;
+    margin: auto;
+}
+
+#pForm{
+    font-size: 12px;
+    padding: 10px 0;
+}
+
+input{
+    margin: 10px;
+    border-radius: 5px;
+    padding: 8px;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+#submit{
+    background-color: goldenrod;
+    font-weight: bold;
+    padding: 8px 22px;
+    border-radius: 6px;
+    margin: 14px 0;
+}
+
+main{
+    padding: 50px 0;
+    height: 500px;
+}
+
+body{
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

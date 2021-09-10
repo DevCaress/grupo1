@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    width: 150px;
+    height: 80px;
+}
+nav{
+    position: sticky;
+    top: 10px;
+}
+
+ul{
+    background-color: coral;
+}
+li{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Helvetica;
+    text-transform: uppercase;
+    color: cornsilk;
+    padding: 10px 20px;
+    background-color: coral;
+}
+
+#papa{
+    background-color: blue;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    top: 20px;
+    left: 50px;
+    z-index: 2;
+}
+
+#hijo{
+    background-color: coral;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+}
+
+a{
+    background-color: crimson;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
+}

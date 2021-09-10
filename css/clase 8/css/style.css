@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*menu*/
+
+nav{
+    background-color: #010101;
+    font-size: 24px;
+    font-family: Helvetica;
+    padding: 0 20px;
+}
+
+nav > ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+nav > ul > a,
+nav > ul > div {
+    padding: 10px 20px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav > ul > a:hover,
+nav > ul > div:hover{
+    background-color: cadetblue;
+    cursor: pointer;
+}
+
+nav > ul > #animes{
+    position: relative;
+}
+
+#animes:hover  #animesList{
+    display: block;
+}
+
+#animesList{
+    color: #000;
+    background-color: chartreuse;
+    list-style-type: none;
+    position: absolute;
+    bottom: -50px;
+    display: none;
+}
+
+#animesList li{
+    padding: 10px 20px;
+}
+
+
+
+
+
+/*medias*/
+
+@media screen and (min-width: 1200px) {
+
+    body{
+        background-color: chartreuse;
+    }
+
+    nav > ul{
+        flex-direction: row;
+        height: auto;
+    }
+
+}
+
+@media screen and (min-width: 300px) {
+
+    nav > ul{
+        flex-direction: column;
+        height: auto;
+    }
+    
+}

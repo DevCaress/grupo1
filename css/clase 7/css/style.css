@@ -1,0 +1,72 @@
+code{
+    font-family: Helvetica;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+div > code{
+    background-color: greenyellow;
+}
+
+
+
+div > pre > code{
+    background-color: hotpink;
+}
+
+div code{
+    background-color: goldenrod;
+}
+
+
+
+/* + */
+/*selecionar el elemento que esta enseguida de equis*/
+div + p{
+    background-color: indigo;
+    color: ivory;
+}
+/* ~ */
+/*seleccionar todos los elementos que estan despues de equis*/
+div ~ p{
+    background-color: lightgreen;
+}
+
+section#sec1.amarillo{
+    background-color: lightskyblue;
+}
+
+html > body > section{
+    background-color: magenta;
+}
+
+code.amarillo{
+    background-color: tomato;
+}
+
+section p.amarillo{
+    background-color: teal;
+}
+
+.amarillo{
+    color: yellow;
+    font-weight: bold;
+}
+
+#sec1{
+    background-color: blueviolet !important;
+    color: cyan;
+}
+
+#stefan{
+    height: 50px;
+    background-color: cyan;
+}
+
+#stefan::after{
+    content: url(../img/favicon.png);
+}
+
+#stefan::before{
+    content: url(../img/favicon.png);
+}

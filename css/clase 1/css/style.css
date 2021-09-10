@@ -1,0 +1,74 @@
+/*  comentario    */
+/*clear con selector universal*/
+*{
+    margin: 0;
+    color: black;
+    font-family: Helvetica;
+}
+
+/* selector por etiqueta*/
+h1{
+    color: green;
+    background-color: magenta;
+}
+
+h2{
+    font-size: 50px;
+    font-family: Helvetica;
+    font-weight:500;
+    font-style:italic;
+}
+
+
+p{
+    color: mediumturquoise;
+    background-color: pink;
+}
+
+hr {
+    border: 0;
+    height: 25px;
+    background-image: url(../img/pacman.webp);
+    background-repeat: no-repeat;
+}
+
+a{
+    font-size: 30px;
+    text-decoration: overline;
+}
+
+
+ /*selectores de clase*/
+
+
+.texto-blanco{
+    color: honeydew;
+}
+
+.rojo{
+    background-color: red;
+    color: lightgreen;
+}
+
+.verde{
+    color: green;
+}
+
+
+/*selector ID*/
+#amarillo{
+    background-color: gold;
+}
+
+#segundaSec{
+    color: purple;
+    background-color: royalblue;
+}
+
+#pTexto{
+    color: royalblue;
+    font-size: 30px;
+    text-align: center;
+    text-decoration:line-through;
+    text-transform: uppercase ;
+}
