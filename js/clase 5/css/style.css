@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+
+div.app{
+    height: 100px;
+    background-color: blueviolet;
+    margin: 10px 0;
+}
+
+#containerPopUp{
+    width: 100%;
+    height: 100vh;
+    background-color: #00000080;
+    position: absolute;
+}
+
+
+#popUp{
+    position: absolute;
+    padding: 20px;
+    width: 40%;
+    height: 300px;
+    background-color: coral;
+    margin-left: 30%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#popUp h2{
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#popUp p{
+    color:cyan;
+    padding: 10px;
+    text-align: center;
+}
+
+#popUp div{
+    background-color: red;
+    width: 60%;
+    margin: auto;
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 8px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+#popUp div:hover{
+    background-color: #b42222;
+    cursor: pointer;
+}

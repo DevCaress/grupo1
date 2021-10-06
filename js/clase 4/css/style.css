@@ -1,0 +1,10 @@
+body{
+    background-color: coral;
+}
+
+
+img{
+    width: 200px;
+    border: 5px solid blue;
+    border-radius: 15px;
+}
