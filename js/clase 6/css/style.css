@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+}
+
+
+
+/* card*/
+
+div.card{
+    background-color: grey;
+    width: 405px;
+    padding: 15px;
+}
+
+.card .cardMain{
+    background-color: gold;
+    padding: 15px;
+    box-shadow: 0px 0px 12px 1px black;
+}
+
+.card .cardMain .title{
+    color: gray;
+    font-size: 27px;
+    padding: 8px;
+    box-shadow: 0px 0px 20px 1px #ffffffbf;
+}
+
+.card .cardMain .stars{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+.card .cardMain .stars img{
+    width: 100%;
+}
+.card .cardMain .img > div{
+    width: 330px;
+    height: 330px;
+    box-shadow: 0px 0px 12px 1px black;
+    background-image: url(../img/cards/IMG-20211005-WA0001.jpg);
+    background-position: center 37.5%;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+
+.card .cardMain .info{
+    margin-top: 10px;
+    border:4px solid orangered;
+}
+.card .cardMain .info > div{
+    background-color: #eae1aa;
+}
+
+.card .cardMain .info .type{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card .cardMain .description{
+    text-align: justify;
+    font-style: italic;
+    font-size: 16px;
+}
+.card .cardMain .num{
+    font-weight: bold;
+    text-align: right;
+    border-top: 2px solid black;
+    margin-top: 17px;
+}
