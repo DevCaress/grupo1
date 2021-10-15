@@ -28,11 +28,11 @@ div.card{
 }
 
 .card .cardMain .stars{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    display: flex;
+    justify-content: flex-end;
 }
 .card .cardMain .stars img{
-    width: 100%;
+    width: calc(100% / 12);
 }
 .card .cardMain .img > div{
     width: 330px;
