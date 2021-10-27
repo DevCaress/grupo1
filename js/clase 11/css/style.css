@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+}
+
+#app{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    background-color: blueviolet;
+    width: 300px;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 12px;
+    margin: 10px;
+}
+.card img{
+    width: 230px;
+}
+.card .name{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.card .id,
+.card .types{
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+
+footer{
+    background-color: rgb(53, 5, 98);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+footer div{
+    padding: 10px 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+footer div:hover{
+    cursor: pointer;
+    background-color: brown;
+}
