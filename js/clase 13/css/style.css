@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+
+#input{
+    padding: 20px;
+    background-color: blueviolet;
+    color: #fff;
+}
+
+.center{
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+#input input{
+    margin-top: 20px;
+    padding: 10px;
+    width: 250px;
+}
+
+#input div{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #fff;
+    width: 100px;
+}
+#input div:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: blueviolet;
+}
+
+
+#todos div{
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 12px;
+    color: #fff;
+    font-size: 20px;
+}
+
+#todos div:hover{
+    cursor: pointer;
+    background-color:rgb(94, 130, 197) ;
+}
+
+#todos div.tachado{
+    text-decoration: line-through;
+    background-color: dimgray;
+}

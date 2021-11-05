@@ -33,6 +33,7 @@ function pokemones(){
 
 function createPagination(){
     var btns = ['before', 'next'];
+    
     for (let index = 0; index < 2; index++) {
         var element2 = document.createElement('div');
         element2.innerHTML = btns[index];

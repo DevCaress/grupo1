@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+#sec1{
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+#sec1 input,
+#sec1 div{
+    padding: 6px 16px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+#sec1 div{
+    color: #fff;
+}
+
+#sec1 div:hover{
+   cursor: pointer;
+   background-color: #fff;
+   border: 1px solid blueviolet;
+   color: blueviolet;;
+}
+
+
+#sec2 div{
+    background-color: cornflowerblue;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+}
