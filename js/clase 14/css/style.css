@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* main{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: chartreuse;
+}
+
+
+div{
+    background-color: blueviolet;
+    padding: 20px;
+    pointer-events: none;
+}
+
+div span{
+    border: 1px solid #fff;
+    padding: 10px 16px;
+    display: block;
+}
+
+div span:hover{
+    background-color: #fff;
+    color: blueviolet;
+    cursor: pointer;
+} */
+
+
+
+main{
+    background-color: blueviolet;
+    width: 100%;
+    height: 100vh;
+}
+
+
+#char{
+    width: 200px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#char img{
+    width: 100%;
+}
