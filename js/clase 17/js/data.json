@@ -1,0 +1,14 @@
+{
+    "nombre": "pugberto",
+    "tipo": "perro",
+    "edad": "8",
+    "color": "cafe",
+    "apellidos": [
+        "Perez",
+        "Lopez",
+        "90"
+    ],
+    "vivo": "true",
+    "raza": null
+    
+}

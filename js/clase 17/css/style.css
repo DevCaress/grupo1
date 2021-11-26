@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+
+#inputs{
+    background-color: blueviolet;
+    padding: 20px;
+}
+
+#inputs div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#inputs div label{
+    color: #fff;
+    margin-right: 10px;
+}
+
+#inputs #submit{
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+#inputs #submit:hover{
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: blueviolet;
+}
+
+
+#outputs .usuario{
+    background-color:darkblue;
+    color:cyan;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+}
